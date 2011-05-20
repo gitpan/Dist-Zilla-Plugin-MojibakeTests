@@ -2,7 +2,7 @@ NAME
     Dist::Zilla::Plugin::MojibakeTests - Release tests for source encoding
 
 VERSION
-    version 0.1
+    version 0.2
 
 SYNOPSIS
     In dist.ini:

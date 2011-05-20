@@ -20,9 +20,10 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Dist::Zilla::Plugin::MojibakeTests',
   'PREREQ_PM' => {
+    'Dist::Zilla' => '0',
     'Test::Mojibake' => '0'
   },
-  'VERSION' => '0.1',
+  'VERSION' => '0.2',
   'test' => {
     'TESTS' => 't/*.t'
   }

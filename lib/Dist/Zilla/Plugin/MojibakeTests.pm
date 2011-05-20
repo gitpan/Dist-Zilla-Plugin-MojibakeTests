@@ -6,7 +6,7 @@ use strict;
 use utf8;
 use warnings 'all';
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 use 5.008;
 use Moose;
@@ -27,7 +27,7 @@ Dist::Zilla::Plugin::MojibakeTests - Release tests for source encoding
 
 =head1 VERSION
 
-version 0.1
+version 0.2
 
 =head1 SYNOPSIS
 

@@ -1,1 +1,2 @@
+0.2 - added Dist::Zilla as dependency so it won't fail on tests
 0.1 - first release
