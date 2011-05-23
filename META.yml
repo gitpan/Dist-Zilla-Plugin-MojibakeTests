@@ -15,4 +15,7 @@ name: Dist-Zilla-Plugin-MojibakeTests
 requires:
   Dist::Zilla: 0
   Test::Mojibake: 0
-version: 0.2
+resources:
+  bugtracker: http://github.com/creaktive/Dist-Zilla-Plugin-MojibakeTests/issues
+  repository: git://github.com/creaktive/Dist-Zilla-Plugin-MojibakeTests.git
+version: 0.3

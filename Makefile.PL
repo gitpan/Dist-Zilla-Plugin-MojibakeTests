@@ -23,7 +23,7 @@ my %WriteMakefileArgs = (
     'Dist::Zilla' => '0',
     'Test::Mojibake' => '0'
   },
-  'VERSION' => '0.2',
+  'VERSION' => '0.3',
   'test' => {
     'TESTS' => 't/*.t'
   }

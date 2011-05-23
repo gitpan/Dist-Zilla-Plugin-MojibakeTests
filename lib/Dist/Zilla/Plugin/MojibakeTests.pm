@@ -6,7 +6,7 @@ use strict;
 use utf8;
 use warnings 'all';
 
-our $VERSION = '0.2';
+our $VERSION = '0.3';
 
 use 5.008;
 use Moose;
@@ -14,6 +14,7 @@ extends 'Dist::Zilla::Plugin::InlineFiles';
 
 __PACKAGE__->meta->make_immutable;
 no Moose;
+
 1;
 
 
@@ -21,13 +22,15 @@ no Moose;
 
 =pod
 
+=encoding utf8
+
 =head1 NAME
 
 Dist::Zilla::Plugin::MojibakeTests - Release tests for source encoding
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 SYNOPSIS
 
