@@ -2,30 +2,37 @@
 use strict;
 use warnings;
 
-
+use 5.008;
 
 use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Release tests for source encoding',
-  'AUTHOR' => 'Stanislaw Pusep <stas@sysd.org>',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "ABSTRACT" => "Release tests for source encoding",
+  "AUTHOR" => "Stanislaw Pusep <stas\@sysd.org>",
+  "BUILD_REQUIRES" => {
+    "File::Find" => 0,
+    "File::Temp" => 0,
+    "Test::More" => 0
   },
-  'DISTNAME' => 'Dist-Zilla-Plugin-MojibakeTests',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Dist::Zilla::Plugin::MojibakeTests',
-  'PREREQ_PM' => {
-    'Dist::Zilla' => '0',
-    'Test::Mojibake' => '0'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'VERSION' => '0.3',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "DISTNAME" => "Dist-Zilla-Plugin-MojibakeTests",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Dist::Zilla::Plugin::MojibakeTests",
+  "PREREQ_PM" => {
+    "Dist::Zilla::Plugin::InlineFiles" => 0,
+    "Moose" => 0,
+    "Unicode::CheckUTF8" => 0,
+    "strict" => 0,
+    "warnings" => 0
+  },
+  "VERSION" => "0.4",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

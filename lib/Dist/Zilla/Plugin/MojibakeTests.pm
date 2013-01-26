@@ -1,24 +1,18 @@
-#!/usr/bin/perl
 package Dist::Zilla::Plugin::MojibakeTests;
 # ABSTRACT: Release tests for source encoding
 
 use strict;
-use utf8;
-use warnings 'all';
+use warnings qw(all);
 
-our $VERSION = '0.3';
+our $VERSION = '0.4'; # VERSION
 
-use 5.008;
 use Moose;
-extends 'Dist::Zilla::Plugin::InlineFiles';
+extends q(Dist::Zilla::Plugin::InlineFiles);
 
 __PACKAGE__->meta->make_immutable;
 no Moose;
 
 1;
-
-
-
 
 =pod
 
@@ -30,7 +24,7 @@ Dist::Zilla::Plugin::MojibakeTests - Release tests for source encoding
 
 =head1 VERSION
 
-version 0.3
+version 0.4
 
 =head1 SYNOPSIS
 
@@ -53,22 +47,24 @@ Stanislaw Pusep <stas@sysd.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Stanislaw Pusep.
+This software is copyright (c) 2013 by Stanislaw Pusep.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
 
-
 __DATA__
 ___[ xt/release/mojibake.t ]___
 #!perl
 
+use strict;
+use warnings qw(all);
+
 use Test::More;
 
-eval 'use Test::Mojibake';
-plan skip_all => 'Test::Mojibake required for source encoding testing'
-    if $@;
+## no critic (ProhibitStringyEval, RequireCheckingReturnValueOfEval)
+eval q(use Test::Mojibake);
+plan skip_all => q(Test::Mojibake required for source encoding testing) if $@;
 
 all_files_encoding_ok();

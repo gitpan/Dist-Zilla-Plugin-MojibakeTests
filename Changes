@@ -1,10 +1,9 @@
-Changelog for Dist::Zilla::Plugin::MojibakeTests
+Changelog for Dist-Zilla-Plugin-MojibakeTests
 
-0.3     2011-05-23
- * better tests
+0.4 2013-01-26T21:25:38
+ [Stanislaw Pusep <creaktive@gmail.com>]
+ - s/require/use/
 
-0.2     2011-05-20
- * added Dist::Zilla as dependency so it won't fail on tests
+ - bumped Dist::Zilla
 
-0.1     2011-05-18
- * first release
+
