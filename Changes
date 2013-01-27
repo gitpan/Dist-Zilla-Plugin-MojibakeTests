@@ -1,6 +1,11 @@
 Changelog for Dist-Zilla-Plugin-MojibakeTests
 
-0.4 2013-01-26T21:25:38
+0.5 2013-01-27T23:11:19
+ [Stanislaw Pusep <creaktive@gmail.com>]
+ - prereq fix
+
+
+v0.4 2013-01-26T21:22:01
  [Stanislaw Pusep <creaktive@gmail.com>]
  - s/require/use/
 

@@ -26,11 +26,12 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Dist::Zilla::Plugin::InlineFiles" => 0,
     "Moose" => 0,
+    "Test::Mojibake" => 0,
     "Unicode::CheckUTF8" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.4",
+  "VERSION" => "0.5",
   "test" => {
     "TESTS" => "t/*.t"
   }

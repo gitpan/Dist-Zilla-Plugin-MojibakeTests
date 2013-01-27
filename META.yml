@@ -18,6 +18,7 @@ name: Dist-Zilla-Plugin-MojibakeTests
 requires:
   Dist::Zilla::Plugin::InlineFiles: 0
   Moose: 0
+  Test::Mojibake: 0
   Unicode::CheckUTF8: 0
   perl: 5.008
   strict: 0
@@ -26,4 +27,4 @@ resources:
   bugtracker: https://github.com/creaktive/Dist-Zilla-Plugin-MojibakeTests/issues
   homepage: https://github.com/creaktive/Dist-Zilla-Plugin-MojibakeTests
   repository: git://github.com/creaktive/Dist-Zilla-Plugin-MojibakeTests.git
-version: 0.4
+version: 0.5
