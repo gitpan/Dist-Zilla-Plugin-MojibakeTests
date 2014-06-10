@@ -1,0 +1,56 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 fe4e59d169a940da7fe54a6899c7409de76e93e0 Changes
+SHA1 d57d49453ae8e1f06611a169b9958fa805fd5f83 LICENSE
+SHA1 48b6eff8d1197e5f7dadd354f59e61034812fa7e MANIFEST
+SHA1 859811a6860947623bff15bd2aa329df6d60a384 MANIFEST.SKIP
+SHA1 d87216e5642f524f2f44513134760d77f246b1d3 META.yml
+SHA1 20e1f7310924133979708e3ae5ead23509bed0a0 Makefile.PL
+SHA1 93cd3d0b7d3dacf0dc31da6ec01ed94ea5f91dfd README
+SHA1 1dfae55591f08ac0c45d64d9ff994d761359543b dist.ini
+SHA1 621c53f71c948112af86a9b7e9ba46d635de6d00 lib/Dist/Zilla/Plugin/MojibakeTests.pm
+SHA1 41b7251366b2eeb10817591a705c1b7150308404 perlcritic.rc
+SHA1 5c96ed7c5202e9278a1d6618e5f216eafc5fd7d1 t/00-compile.t
+SHA1 09ceda5553914383e99afbc0b1791613579e587f t/00-load.t
+SHA1 fa45d6e6ab1cd421349dea4ef527bfd5cdc8a09e t/author-critic.t
+SHA1 56d2c8fb50d9fce8c27e943a13449c921e571a85 t/author-test-eol.t
+SHA1 c019f763f1afade90b7f6f24628af4d8fde358fa t/release-cpan-changes.t
+SHA1 87768d177f8c2e2df9c591cde869e7c8a245555e t/release-dist-manifest.t
+SHA1 d165f8ec069354540640243399f536af695046dd t/release-distmeta.t
+SHA1 3d3e9f1370ee4c83d847fe06b77bae14ac1e131a t/release-kwalitee.t
+SHA1 54ed25287b7e1c9ff328eaf126d438438c8a1d48 t/release-minimum-version.t
+SHA1 54b7f39e355424cbc367105b84ff02a6cb29d93b t/release-mojibake.t
+SHA1 5435c8ea389d2b7b9a8bd525c5aaf3e3c33705e6 t/release-no-tabs.t
+SHA1 5cf386f49901e8ccaad5ab271036754d67114081 t/release-pod-coverage.t
+SHA1 4f2933df3566db6f337817aa885889deb213960b t/release-pod-linkcheck.t
+SHA1 dc3eefcab3399f9a70861c332bb4a81ddcbb45e4 t/release-pod-syntax.t
+SHA1 bf4fdda27bd4e8ec177c38cca43083317494cba8 t/release-portability.t
+SHA1 e647f89568819f60f56e2c7202e10b21acb77652 t/release-synopsis.t
+SHA1 b3350d3d17bb2fa4e23075ec8d786505cc565539 t/release-test-version.t
+SHA1 17514255b5ff5f46ac8ce9e9e3c887c9a205c8ba t/release-unused-vars.t
+SHA1 cd0d37469e1761a4f309a80bdb39aa31f47adae3 weaver.ini
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJTlsK2AAoJEDlxU7ZVUpmibikH/3J1m10d2EI2s59Sworys3NR
+UJ9Fo3bvLGn3JHM7Lwwf9mc1MvlAMtyQWpt8vWVNW2lKW63Jx2vhlgYTBj39RWzk
++fpfB0YPuAvTgOg5a00jh3Pnc4ETs8+ZgDcmkigZYdWelp2OvObRtS9craLW5zhA
+f6ukXTpk/CaVKE4r9QphPX69Oo4l/zQ34wrcNf1/3sHu1YjleYy+8KKoDxxswrdL
+lqVDjlp2qBOFSVMncVT+cK73QGkvis9NXl6azOIaw/0EZEfJHw2x6nYyP9yN9wDa
+jYsN1tfEaa9M7CdnxwBTHOSFn+a+r4z7HVMeKCfZ5JDh+p8OiYGQsxOPEe+xhWw=
+=8vZx
+-----END PGP SIGNATURE-----

@@ -4,7 +4,7 @@ package Dist::Zilla::Plugin::MojibakeTests;
 use strict;
 use warnings qw(all);
 
-our $VERSION = '0.5'; # VERSION
+our $VERSION = '0.6'; # VERSION
 
 use Moose;
 extends q(Dist::Zilla::Plugin::InlineFiles);
@@ -16,7 +16,7 @@ no Moose;
 
 =pod
 
-=encoding utf8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -24,7 +24,7 @@ Dist::Zilla::Plugin::MojibakeTests - Release tests for source encoding
 
 =head1 VERSION
 
-version 0.5
+version 0.6
 
 =head1 SYNOPSIS
 
@@ -47,7 +47,7 @@ Stanislaw Pusep <stas@sysd.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Stanislaw Pusep.
+This software is copyright (c) 2014 by Stanislaw Pusep.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
