@@ -1,8 +1,12 @@
 Changelog for Dist-Zilla-Plugin-MojibakeTests
 
-0.6 2014-06-10T08:32:53
+0.7 2014-06-18T14:01:58
+ - Mojibake within D::Z::P::MojibakeTests changelog: not good :) (Stanislaw
+   Pusep)
+
+0.6 2014-06-10T08:31:47
  - Dist::Zilla maintenance (Stanislaw Pusep)
- - drop PWP::Encoding dependency (Ð¡ÐµÑÐ³ÐµÐ¹ Ð Ð¾Ð¼Ð°Ð½Ð¾Ð²)
+ - drop PWP::Encoding dependency (Сергей Романов)
 
 0.5 2013-01-27T19:48:49
  - prereq fix (Stanislaw Pusep)

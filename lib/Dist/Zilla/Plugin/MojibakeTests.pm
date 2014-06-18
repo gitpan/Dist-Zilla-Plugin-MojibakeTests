@@ -4,7 +4,7 @@ package Dist::Zilla::Plugin::MojibakeTests;
 use strict;
 use warnings qw(all);
 
-our $VERSION = '0.6'; # VERSION
+our $VERSION = '0.7'; # VERSION
 
 use Moose;
 extends q(Dist::Zilla::Plugin::InlineFiles);
@@ -24,7 +24,7 @@ Dist::Zilla::Plugin::MojibakeTests - Release tests for source encoding
 
 =head1 VERSION
 
-version 0.6
+version 0.7
 
 =head1 SYNOPSIS
 
